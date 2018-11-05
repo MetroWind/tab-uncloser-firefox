@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Uncloser",
+    "version": "0.1",
+
+    "description": "Undo tab close with a customizable keyboard shortcut.",
+
+    "icons": {"48": "icon.svg"},
+
+    "commands": {
+        "undo-close-session": {
+            "suggested_key": { "default": "Ctrl+Z" },
+            "description": "Send a 'undo-close-session' event to the extension"
+        }
+    },
+
+    "permissions": ["sessions"],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    }
+}

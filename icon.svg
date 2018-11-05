@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <path fill="transparent" stroke="black" stroke-width="40"
+        d="M 0 437
+           h 50
+           v -312
+           a 50 50 0 0 1 50 -50
+           h 312
+           a 50 50 0 0 1 50 50
+           v 312
+           h 50" />
+  <path fill="transparent" stroke="black" stroke-width="50"
+        d="M 130 256
+           l 80 100
+           l 170 -170
+
+"
+/>
+</svg>
