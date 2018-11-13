@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Tab Uncloser",
-    "version": "0.1",
+    "version": "0.2",
 
     "description": "Undo tab close with a customizable keyboard shortcut.",
 
@@ -14,7 +14,7 @@
         }
     },
 
-    "permissions": ["sessions"],
+    "permissions": ["sessions", "menus", "storage"],
 
     "background": {
         "scripts": ["background.js"]
@@ -23,5 +23,11 @@
     "options_ui": {
         "page": "options.html",
         "browser_style": true
+    },
+
+    "applications": {
+        "gecko": {
+            "id": "{eccb4ec8-d1f4-452b-8d9e-447b9e33c1fd}"
+        }
     }
 }
